@@ -346,7 +346,7 @@ tableextension 50091 "Report Selections EX ITB" extends 77
         PageCaption: TextConst DAN = 'Side', DEU = 'Seite', ENU = 'Page';
         ShipmentMethodCaption: TextConst DAN = 'Levering', DEU = 'Lieferung', ENU = 'Shipment';
         YourRefCaption: TextConst DAN = 'Deres ref.', DEU = 'Ihre ref.', ENU = 'Your ref.';
-        //RefNoCaption: TextConst DAN = 'Ref.nr.', DEU = 'Ref.nr.', ENU = 'Ref. No.';
+        //RefNoCaption: TextConst DAN = 'Ref.nr.', DEU = 'Ref.nr.', ENU = 'Ref. No.';//
         RefNoCaption: TextConst DAN = 'Rekvisition', DEU = 'Ref.nr.', ENU = 'Ref. No.'; //HBK / ITB - 291121
         PaymentCaption: TextConst DAN = 'Betaling', DEU = 'Zahlung', ENU = 'Payment';
         DateCaption: TextConst DAN = 'Dato', DEU = 'Datum', ENU = 'Date';
