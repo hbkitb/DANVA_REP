@@ -1,0 +1,47 @@
+{
+  "id": "82be6054-7c94-40e3-865d-ce675cf392f2",
+  "name": "DANVA_REP",
+  "publisher": "ITBASEN",
+  "version": "1.0.0.2",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "LOGO/logo.png",
+  "dependencies": [     
+    
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    },
+    {
+      "id": "c2ea0fd9-f1e8-41f7-aec1-66672cf0cfd0",
+      "publisher": "ITBASEN",
+      "name": "DANVA_BC01",
+      "version": "1.0.0.4"
+    }
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://DANVA_REP.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
