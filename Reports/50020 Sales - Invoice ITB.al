@@ -1717,7 +1717,7 @@ report 50020 "Sales - Invoice ITB"
 
 
                 TabIdx += 1;
-                PaymentInfoLines[TabIdx] := CompanyInfo."Bank Name" + ' ' + CompanyInfo."Bank Branch No." + ' - ' + CompanyInfo."Bank Account No.";
+                PaymentInfoLines[TabIdx] := '';  //HBK/ITB - 240322 CompanyInfo."Bank Name" + ' ' + CompanyInfo."Bank Branch No." + ' - ' + CompanyInfo."Bank Account No.";
                 IF CompanyInfo.IBAN <> '' then begin
                     TabIdx += 1;
                     PaymentInfoLines[TabIdx] := IBANCaption + ' ' + CompanyInfo.IBAN;
